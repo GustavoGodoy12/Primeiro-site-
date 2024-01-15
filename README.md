@@ -1,0 +1,1 @@
+O presente projeto apresenta um site básico desenvolvido 100% por mim com o intuito de desenvolver um pouco da linguagem HTML e CSS. Trata-se de um brechó de roupas chamado Kamale Brechó em que me ofereci para transformar a loja virtual da loja em um site ativo algum dia.
