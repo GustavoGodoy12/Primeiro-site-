@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamale Brechó</title>
+    <link rel="stylesheet" href="wiki2.css"> <!-- Use um arquivo CSS externo para estilos mais complexos -->
+    
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="search-bar"> <!-- Barra de pesquisa -->
+                <input type="text" class="search-input" placeholder="Sapatos..."> <!-- Barra de pesquisa tipo texto/ placeholder - exemplo de digitação -->
+                <button class="search-button">Pesquisar</button>
+                <h1><p><a href="index.html"><img src="logotipo roxo.png"  style="float: right;width: 150px; position: absolute ;TOP:-35px;left: 540px;"></p></h1> <!--Logo na pagina-->
+            </div>
+            <h1> </h1>
+            <div class="account-options">
+                <a href="indexlogin.html"><img src="login.png" width="20px"></a>  <!--Login a direita da pagina-->
+                <a href="carrinho"><img src="carrinho.jpg" width="20px"></a> <!-- carrinho - img -->
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <form>
+            <select name="Categorias" > <!-- Criando categorias a serem selecionadas -->
+                <option value="Categorias">Categorias</option>
+                <option value="Roupas">Casacos</option>
+                <option value="Promoção">Camisas</option>
+                <option value="Moda">Vestidos</option>
+                <option value="Novidades">Roupas Esportivas</option>
+                <option value="Novidades">Calças</option>
+            </select>
+        </form>
+        <ul> <!-- Listas de opçoes de compras -->
+            <li><a href="index2.html">Calças</a></li>
+            <li><a href="index3.html">Camisas</a></li>
+            <li><a href="index4.html">Casacos</a></li>
+            <li><a href="index5.html">Vestidos</a></li>
+            <li><a href="index6.html">Esportivas</a></li>
+            <li><a href="index7.html">Sapatos</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        
+        <aside id="FRETE">
+            <div class="promo-bar"> <!-- Adicione um novo div para a barra de promoção -->    
+            </div>
+        
+        </aside>
+        
+        <p><a href="index.html">Início</a> / Calças</p>
+        Filtrar Tamanho: <input type="search" id="pesquisa" oninput="limpar()" placeholder="P/M/G"> 
+        <button type="button" onclick="filtrar()">Filtrar</button>
+        <ul id="lista">
+        </ul>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+            function limpar() {
+                $('#lista li').show();
+            }
+            function filtrar() {
+                var termo = $('#pesquisa').val().toUpperCase();
+                $('#lista li').each(function() { 
+                   if($(this).html().toUpperCase().indexOf(termo) === -1) {
+                       $(this).hide();
+                   }    
+                });
+            }
+        </script>
+        <div class="femininocalcas">
+        <h1>Calças Femininas</h1>
+    </div>
+        <article>
+        </article>
+      
+        <section>
+            <script>
+                var clicks = 1;
+        function ocultaForm() {
+         alert('ESGOTADO!');
+         if (clicks === 1) {
+            console.log('Você clicou ' + clicks + ' vez na imagem!');
+         } else {
+            console.log('Você clicou ' + clicks + ' vezes na imagem!');
+         }
+            clicks++;
+
+}
+            </script>
+
+            
+
+
+            <div >
+                <img src="pag2calca.jpg" class="img_1" onclick="ocultaForm()">
+                <img src="pag2calca1.jpg" class="img_1">
+                <img src="pag2calca3.jpg" class="img_1">
+                <img src="pag2calca4.jpg"class="img_1" >
+                <img src="pag2calca8.jpg"class="img_1" >
+            </div>
+            <div class="precoss1"><p><strong>R$159,90 </strong></p></div>
+        
+        
+        <div class="precoss2">
+            <p><strong>R$103,60</strong></p>            
+        </div>
+        
+        <div class="precoss3">
+            <p><strong>R$104,90</strong></p>            
+        </div>
+       
+        <div class="precoss4">
+            <p><strong>R$175,00</strong></p>            
+        </div>
+    
+        <div class="precoss5">
+            <p><strong>R$59,90</strong></p>            
+        </div>
+        
+        </section>
+        
+    </main>
+    
+    
+    
+        
+    <footer class="rodape" id="contato">
+        <table border="1">
+            <tr>
+                <td>Tamanhos</td>
+                <td>Cores</td>
+            </tr>
+            <tr>
+                <td>P</td>
+                <td>RGB</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td>RGB</td>
+
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>RGB</td>
+
+            </tr>
+        </table>
+        <div class="rodape-div">
+    
+            <div class="rodape-div-1">
+                <div class="rodape-div-1-coluna">
+                    <!-- elemento -->
+                    <p><a><img src="Marca d'agua Laranja.png" width="25%" ></a></p>
+                  
+                </div>
+            </div>
+    
+            <div class="rodape-div-2">
+                <div class="rodape-div-2-coluna">
+                    <!-- elemento -->
+                    <span><b>Contatos</b></span>
+                    <p>kamalebrecho@gmail.com</p>
+                    <p>+55 41 99674-9558</p>
+                </div>
+            </div>
+    
+            <div class="rodape-div-3">
+                <div class="rodape-div-3-coluna">
+                    <!-- elemento -->
+                    <span><b>Links</b></span>
+                    
+                    <p><a href="https://www.tiktok.com/@kamalebrecho"><img src="tik-tok.png" width="10%"></a></p>
+                    <p><a href="https://www.instagram.com/kamalebrecho/"><img src="instagram.png" width="10%"></a></p>
+                </div>
+            </div>
+    
+            <div class="rodape-div-4">
+                <div class="rodape-div-4-coluna">
+                    <!-- elemento -->
+                    <span><b>Outros</b></span>
+                    <p>Políticas de Privacidade</p>
+                </div>
+            </div>
+    
+        </div>
+        <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados.</p>
+    </footer>
+   
+</body>
+</html>

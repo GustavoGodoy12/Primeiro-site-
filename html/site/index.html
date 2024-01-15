@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamale Brechó</title>
+    <link rel="stylesheet" href="wiki.css"> <!-- Use um arquivo CSS externo para estilos mais complexos -->
+    <style>
+        .content {
+            background-color: rgb(254, 242, 214);
+            width: 60px;
+            height: 35px;
+            position: relative;
+            top: -117px;
+            left: 900px;
+        }
+        
+    </style>
+
+    
+</head>
+<body>
+
+    
+    <header>
+        <div class="top-bar">
+            <div class="search-bar"> <!-- Barra de pesquisa -->
+                <input type="text" class="search-input" placeholder="Sapatos..."> <!-- Barra de pesquisa tipo texto/ placeholder - exemplo de digitação -->
+                <button class="search-button">Pesquisar</button>
+                <h1><p><a href="index.html"><img src="logotipo roxo.png"  style="float: center;width: 150px; position: absolute ;TOP:-35px;left: 650px;"></p></h1> <!--Logo na pagina-->
+            </div>
+            <h1> </h1>
+            <div class="account-options">
+                <a href="indexlogin.html"><img src="login.png" width="20px"></a> <!--Login a direita da pagina-->
+                <a href="carrinho"><img src="carrinho.jpg" width="20px"></a> <!-- carrinho - img -->
+            </div>
+        </div>
+    </header>
+    <nav>
+        <form>
+            <select name="Categorias" > <!-- Criando categorias a serem selecionadas -->
+                <option value="Categorias">Categorias</option>
+                <option value="Roupas">Casacos</option>
+                <option value="Promoção">Camisas</option>
+                <option value="Moda">Vestidos</option>
+                <option value="Novidades">Roupas Esportivas</option>
+                <option value="Novidades">Calças</option>
+            </select>
+        </form>
+        <ul> <!-- Listas de opçoes de compras -->
+            <li><a href="index2.html">Calças</a></li>
+            <li><a href="index3.html">Camisas</a></li>
+            <li><a href="index4.html">Casacos</a></li>
+            <li><a href="index5.html">Vestidos</a></li>
+            <li><a href="index6.html">Esportivas</a></li>
+            <li><a href="index7.html">Sapatos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <aside id="FRETE">
+            <div class="promo-bar"> <!-- Adicione um novo div para a barra de promoção -->    
+            </div>
+        
+            
+
+        </aside>
+        <article id="carreira"> <!--IMG ao centro da pagina promoção dia das crianças-->
+            <div class="article">
+           
+            <div id="interagir" onclick="clicar()" onmouseenter="entrar()" onmouseout="saindo()">
+                <img id="imagem" src="thumb.webp" width="1000" height="400" alt="Imagem padrão">
+            </div>
+            
+            <script>
+                let a = window.document.getElementById('interagir');
+                let imagem = window.document.getElementById('imagem');
+            
+                function entrar() {
+                    imagem.src = "thumb2.webp"; 
+                    
+                
+                }
+                function saindo() {
+                    imagem.src = "thum3.webp"; 
+                    
+                
+                }
+                function entrar(){
+                    imagem.src = "thumb2.webp";
+
+                }
+                function entrar() {
+                    imagem.src = "thumb.webp"; 
+                }
+            
+            </script>
+        
+            <position:center><h3>Compre por categoria</h3></position:center>
+        </div>
+        </article>
+      
+        <section>
+            <div>
+            <a href="index2.html"><img src="calca.png" class="img_container"></a>
+            <a href="index3.html"><img src="camisa.png" class="img_container"></a>
+            <a href="index4.html"><img src="casacos.png" class="img_container"></a>
+            <a href="index5.html"><img src="vestido.png" class="img_container"></a>
+            <a href="index7.html"><img src="saltos.png" class="img_container"></a>
+            <a href="index6.html"><img src="esportivo.png" class="img_container"></a>
+        </div>
+
+        <div class="listagem">
+            <p><strong>Calças</strong></p>            
+        </div>
+        <div class="listagem1">
+            <p><strong>Camisetas</strong></p>
+        </div>
+        <div class="listagem2">
+            <p><strong>Casacos</strong></p>
+        </div>
+        <div class="listagem3">
+            <p><strong>Vestidos</strong></p>
+        </div>
+        <div class="listagem4">
+            <p><strong>Sapatos</strong></p>
+        </div>
+        <div class="listagem5">
+            <p><strong>Esportivos</strong></p>
+        </div>
+        <div class="relampago">
+            <h2><strong>sale</strong></h2>
+        </div>
+        <div class="content">
+            <strong>FRETE GRÁTIS</strong>
+        </div>
+        <div class="ofertas">
+            <h1>OFERTA RELÂMPAGO</h1>
+            
+        </div>
+        
+        
+        <div>
+            <img src="logotipo laranja.png" class="laranja">
+        </div>
+
+        <div>
+            <img src="promo.jpg" class="img_relampago">
+            <img src="promo1.jpg" class="img_relampago">
+            <img src="promo2.jpg" class="img_relampago">
+            <img src="promo3.jpg" class="img_relampago">
+            <img src="promo4.jpg" class="img_relampago">
+            <img src="promo5.jpg" class="img_relampago">
+        </div>
+        <div>
+            <img src="20off-removebg-preview.png" class="offtwenty">
+            <img src="30off-removebg-preview.png" class="offthirty">
+            <img src="25off-removebg-preview.png" class="offtwentyfive">
+            <img src="30off-removebg-preview.png" class="offthirty2">
+            <img src="25off-removebg-preview.png" class="offtwentyfive2">
+            <img src="20off-removebg-preview.png" class="offtwenty2">
+        </div>
+        <div class="preco1"><p><strong>R$159,90 </strong></p></div>
+        
+        
+        <div class="preco2">
+            <p><strong>R$103,60</strong></p>            
+        </div>
+        
+        <div class="preco3">
+            <p><strong>R$104,90</strong></p>            
+        </div>
+       
+        <div class="preco4">
+            <p><strong>R$175,00</strong></p>            
+        </div>
+    
+        <div class="preco5">
+            <p><strong>R$59,90</strong></p>            
+        </div>
+        <div class="preco6">
+            <p><strong>R$351,90</strong></p>      
+        </div>
+        <div class="preco1s">
+            <s><strong>R$150,90</strong></s>            
+        </div>
+        <div class="preco2s">
+            <s><strong>R$199,90</strong></s>            
+        </div>
+        <div class="preco3s">
+            <s><strong>R$139,90</strong></s>            
+        </div>
+        <div class="preco4s">
+            <s><strong>R$249,99</strong></s>            
+        </div>
+        <div class="preco5s">
+            <s><strong>R$79,90</strong></s>            
+        </div>
+        <div class="preco6s">
+            <s><strong>R$439,90</strong></s>            
+        </div class = tamanho_webimage>
+
+        <div class="thumbfinal">
+        <img src="https://img.ltwebstatic.com/images3_acp/2021/11/29/16381566488ec20745813954670816af38d7b4e86a_thumbnail_1842x.webp" width="1000px" height="250px">
+        </div>
+
+        
+        </section>
+        
+
+    </main>
+    <footer class="rodape" id="contato">
+
+        
+        <div class="rodape-div">
+    
+            <div class="rodape-div-1">
+                <div class="rodape-div-1-coluna">
+                    <!-- elemento -->
+                    <p><a><img src="Marca d'agua Laranja.png" width="25%" ></a></p>
+                  
+                </div>
+            </div>
+    
+            <div class="rodape-div-2">
+                <div class="rodape-div-2-coluna">
+                    <!-- elemento -->
+                    <span><b>Contatos</b></span>
+                    <p>kamalebrecho@gmail.com</p>
+                    <p>+55 41 99674-9558</p>
+                </div>
+            </div>
+    
+            <div class="rodape-div-3">
+                <div class="rodape-div-3-coluna">
+                    <!-- elemento -->
+                    <span><b>Links</b></span>
+                    
+                    <p><a href="https://www.tiktok.com/@kamalebrecho"><img src="tik-tok.png" width="10%"></a></p>
+                    <p><a href="https://www.instagram.com/kamalebrecho/"><img src="instagram.png" width="10%"></a></p>
+                </div>
+            </div>
+    
+            <div class="rodape-div-4">
+                <div class="rodape-div-4-coluna">
+                    <!-- elemento -->
+                    <span><b>Outros</b></span>
+                    <p>Políticas de Privacidade</p>
+                </div>
+            </div>
+    
+        </div>
+        <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados.</p>
+        
+    </footer>
+   
+    
+    
+</body>
+</html>

@@ -1,0 +1,372 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    overflow-x: hidden ;
+}
+header {
+    color: #ffffff;
+    text-align: center;
+    padding: 0px ;
+
+}
+h1 {
+    font-size: 2em;
+}
+nav {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 0;
+    text-align: right;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.0);
+    border-radius: 0px;
+
+}
+h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+p {
+    line-height: 1.6;
+}
+footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #000000;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+/* Estilos para links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Estilos para a barra de pesquisa e opções de conta */
+.top-bar {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-bar {
+    text-align: center;
+}
+.search-input {
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 14px;
+}
+.search-button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.account-options {
+    margin-left: 20px;
+}
+.account-options a {
+    margin-right: 10px;
+}
+
+
+section{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+.tamanho_imagem{
+    width: 40%;
+}
+
+.article{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.img_container{
+    width: 153px;
+    margin-left: 10px;
+}
+
+.listagem{
+    text-align: left;
+    position: relative;
+    right: -60px;
+    top: -65px;
+
+}
+
+.listagem1{
+    text-align: left;
+    position: relative;
+    right: -217px;
+    top: -104px;
+}
+
+.listagem2{
+    text-align: center;
+    position: relative;
+    right: 78px;
+    top: -143px;
+
+}
+
+.listagem3{
+    text-align: center;
+    position: relative;
+    right: -88px;
+    top: -181px;
+}
+
+.listagem4{
+    text-align: center;
+    position: relative;
+    right: -248px;
+    top: -222px;
+}
+.listagem5{
+    text-align: right;
+    position: relative;
+    right: 40px;
+    top: -260px;
+}
+
+.relampago{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    top: -200px;
+}
+
+.ofertas{
+    position: relative;
+    top: -180px;
+    background-color: rgb(254, 242, 214);
+    width: 33%;
+}
+
+.porcentagem{
+    width: 160px;
+    position: absolute;
+    top: 960px;
+    right: 500px;
+}
+
+.laranja{
+    width: 100px;
+    top: 865px;
+    right: 565px;
+    position: absolute;
+}
+
+.img_relampago{
+    width: 153px;
+    margin-left: 10px;
+    position: relative;
+    top: -135px;
+}
+
+.offtwenty{
+    width: 80px;
+    position: relative;
+    top: -360px;
+    left: -20px;
+}
+
+.offthirty{
+    width: 80px;
+    position: relative;
+    top: -360px;
+    left: 60px;
+}
+
+.offtwentyfive{
+    width: 80px;
+    position: relative;
+    top: -360px;
+    left: 140px;
+}
+.offthirty2{
+    width: 80px;
+    position: relative;
+    top: -360px;
+    left: 220px;
+}
+.offtwentyfive2{
+    width: 80px;
+    position: relative;
+    top: -360px;
+    left: 310px;
+}
+.offtwenty2{
+    width: 80px;
+    position: relative;
+    top: -360px;
+    left: 400px;
+}
+
+.preco1{
+    text-align: left;
+    position: relative;
+    left: 10px;
+    top: -215px;
+    color: rgb(198, 129, 0);
+}
+.preco2{
+    text-align: left;
+    position: relative;
+    left: 176px;
+    top: -254px;
+    color: rgb(198, 129, 0);
+}
+.preco3{
+    text-align: left;
+    position: relative;
+    left: 344px;
+    top: -294px;
+    color: rgb(198, 129, 0);
+}
+.preco4{
+    text-align: center;
+    position: relative;
+    left: 39px;
+    top: -333px;
+    color: rgb(198, 129, 0);
+}
+.preco5{
+    text-align: center;
+    position: relative;
+    left: 207px;
+    top: -372px;
+    color: rgb(198, 129, 0);
+}
+.preco6{
+    text-align: right;
+    position: relative;
+    left: -97px;
+    top: -411px;
+    color: rgb(198, 129, 0);
+}
+
+.preco1s{
+    font-size: smaller;
+    text-align: left;
+    position: relative;
+    left: 80px;
+    top: -445px;
+    color: rgb(135, 131, 131);
+}
+.preco2s{
+    font-size: smaller;
+    text-align: left;
+    position: relative;
+    left: 248px;
+    top: -460px;
+    color: rgb(135, 131, 131);
+}
+.preco3s{
+    font-size: smaller;
+    text-align: left;
+    position: relative;
+    left: 415px;
+    top: -475px;
+    color: rgb(135, 131, 131);
+}
+.preco4s{
+    font-size: smaller;
+    text-align: left;
+    position: relative;
+    left: 577px;
+    top: -490px;
+    color: rgb(135, 131, 131);
+}
+.preco5s{
+    font-size: smaller;
+    text-align: left;
+    position: relative;
+    left: 742px;
+    top: -505px;
+    color: rgb(135, 131, 131);
+}
+.preco6s{
+    font-size: smaller;
+    text-align: left;
+    position: relative;
+    left: 910px;
+    top: -520px;
+    color: rgb(135, 131, 131);
+}
+
+.thumbfinal{
+    position: absolute;
+    top: 1550px;
+}
+
+.rodape{
+    background-color: rgb(254, 242, 214);
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+.rodape a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+

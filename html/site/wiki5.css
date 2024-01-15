@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    overflow-x: hidden ;
+}
+header {
+    color: #ffffff;
+    text-align: center;
+    padding: 0px ;
+
+}
+h1 {
+    font-size: 2em;
+}
+nav {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 0;
+    text-align: right;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.0);
+    border-radius: 0px;
+
+}
+h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+p {
+    line-height: 1.6;
+}
+footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #000000;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+/* Estilos para links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Estilos para a barra de pesquisa e opções de conta */
+.top-bar {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-bar {
+    text-align: center;
+}
+.search-input {
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 14px;
+}
+.search-button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.account-options {
+    margin-left: 20px;
+}
+.account-options a {
+    margin-right: 10px;
+}
+.img_5{
+    width: 10px;
+    margin-left: 10px;
+}
+.precoss1{
+    text-align: left;
+    position: relative;
+    left: 0px;
+    top: -20px;
+    color: rgb(0, 0, 0);
+}
+.precoss2{
+    text-align: left;
+    position: relative;
+    left: 196px;
+    top: -61px;
+    color: rgb(0, 0, 0);
+}
+.precoss3{
+    text-align: left;
+    position: relative;
+    left: 396px;
+    top: -104px;
+    color: rgb(0, 0, 0);
+}
+.precoss4{
+    text-align: center;
+    position: relative;
+    left: 130px;
+    top: -146px;
+    color: rgb(0, 0, 0);
+}
+.precoss5{
+    text-align: center;
+    position: relative;
+    left: 323px;
+    top: -188px;
+    color: rgb(0, 0, 0);
+}
+
+.tamanhos{
+    font-size: smaller;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape{
+    background-color: rgb(254, 242, 214);
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+.rodape a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+/*mobile*/
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
+}
